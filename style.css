@@ -1,0 +1,92 @@
+.start  {
+    background-image: url("горы.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1200px;
+    color: rgb(129, 129, 129);
+    text-align:center;
+    padding: top 150px;
+
+}
+.иваныч {
+    background-image: url("внр.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1200px;
+    color: rgb(105, 105, 105);
+    text-align: center;
+    padding: top 150px;
+
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-align:center ;
+}
+h2 {
+    color:rgba(255, 255, 255, 0.517);
+}
+p {
+    font-size: 18px;
+}
+li {
+    font-size: 17px; 
+}              
+.photo{
+    width: 300px; 
+    border-radius: 0px;
+    border: 3px solid rgb(9, 9, 9);
+    display: block;
+    margin: 20px auto;
+
+}
+nav a {
+    /*отступы вокруг текста*/
+    padding: 10px 20px;
+    color:rgb(119, 122, 122)
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: darkgrey;
+    transition:background-color 0.3s;
+
+}
+
+nav a:hover {
+    /*фон кнопки при наведении*/
+    background-color: rgb(75, 75, 75);
+    color:rgba(0, 0, 255, 0.261)
+
+} 
+
+.info{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+}
+
+
+
+
+.info img {
+
+    width: 300px;
+
+    border: radius 15px;
+
+}
+
+
+
+
+.text{
+
+    flex: 1;
+    
+}
+
+
